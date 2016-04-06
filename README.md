@@ -5,6 +5,8 @@ The Ipython notebook for visualizations (and accompany html file) is just a visu
 
 Brief description of the Additions to each Problem in Part 1
 
+Overall - There are multiple SQL queries in each .sql file. For Problems 2, 3, 4, the first queries were included to better communicate the different parts I was trying to build to accomplish the task. In all cases, the final SQL query at the bottom is the one used to generate the data (all parts put together)
+
 Problem 1 Addition - Added more stringent conditions for definition of active based upon Problem 4
 
 Problem 2 Addition - Added correlation of good posture (pivoted original question to correlation of bad posture)
