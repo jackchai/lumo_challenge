@@ -4,7 +4,9 @@
 #We will then compare this number to the average percentage of good sit time
 
 SELECT cast(total_cum_sitting_time/10 as int) * 10 as minutes_of_sitting,
-AVG(perc_good_sit) as avg_good_sit
+AVG(perc_good_sit) as avg_good_sit,
+STDDEV(perc_good_sit*1.0) as stdev_good_sit,
+COUNT(1) as n_good_sit 
 FROM
 (SELECT owner,
 session_id,
